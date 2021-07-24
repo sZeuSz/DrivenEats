@@ -171,3 +171,41 @@ body{
   display: none;
 }
 /* fim botões, check, checked */
+
+
+/* Fixed bottom barra */
+.barra-fim-fixa{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 91px;
+  width: 100vw;
+  background-color: #FFFFFF;
+  z-index: 1;
+}
+
+.texto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 61px;
+  width: calc(100vw - 40px);
+  border-radius: 50px;
+  background-color: #CBCBCB;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.descricao{
+  width: 60%;
+}
