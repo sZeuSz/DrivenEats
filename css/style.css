@@ -7,7 +7,9 @@
 body{
   background-color: #EEEEEE;
 }
-
+.su-miu{
+  display: none;
+}
 ::-webkit-scrollbar{
   display: none;
 }
@@ -55,7 +57,9 @@ body{
   font-weight: 400;
   color: #333333;
 }
-.prato img{
+.prato img, 
+.bebida img, 
+.sobremesa img{
   width: 144px;
   height: 87px;
   border-radius: 4px;
@@ -72,7 +76,9 @@ body{
 }
 /* Fim do card */
 
-.pratos{
+.pratos, 
+.bebidas,
+.sobremesas{
   display: flex;
   width: 100%;
   height: 216px;
@@ -97,7 +103,9 @@ body{
   margin-top: 10px;
 }
 
-.prato{
+.prato,
+.bebida,
+.sobremesa{
   height: 100%;
   width: 175px;
   display:flex;
@@ -148,10 +156,14 @@ body{
   color:#32B72F;
   display:none;
 }
-.radio:checked ~ .prato {
+.radio:checked ~ .prato, 
+.radio:checked ~ .bebida, 
+.radio:checked ~ .sobremesa {
   border-color: #32B72F;
 }
-.radio:checked ~ .prato .check{
+.radio:checked ~ .prato .check, 
+.radio:checked ~ .bebida .check, 
+.radio:checked ~ .sobremesa .check{
   display:initial;
 }
 
