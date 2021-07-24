@@ -9,9 +9,86 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="topo">
-        <p class="titulo">DrivenEats</p>
-        <p class="subtitulo">Sua comida pronta em 6 minutos</p>
+
+    <!-- TOPO -->
+      <div class="topo">
+          <p class="titulo">DrivenEats</p>
+          <p class="subtitulo roboto400">Sua comida pronta em 6 minutos</p>
+      </div>
+      <!-- FIM TOPO -->
+
+      <!-- CONTEUDO -->
+      <div class="conteudo">
+          <p class="secao">Primeiro, seu prato</p>
+        
+          <!-- Teste BOTTON Pratos -->
+          <div class="pratos">
+            <label class="card">
+              <div class="alinha">
+                <input type="radio" class="radio" name="prato" value="29.90" >
+                <div class="prato" onclick="calc();" id="pta">
+                  <img src="https://www.queroviajarmais.com/wp-content/webp-express/webp-images/uploads/2019/03/comidas-da-franca-croissant.jpg.webp">
+                  <div class="informacoes">
+                    <p class="nome-produto">Croissant</p>
+                    <p class="descricao-produto">pão.</p>
+                    <p class="preco">R$ 29,90</p>
+                    <ion-icon class="check" name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                </div>
+              </div>
+            </label>
+            <label class="card">
+              <div class="alinha">
+                <input type="radio" class="radio"  onclick="calc();" name="prato" value="5.80" >
+                <div class="prato">
+                  <img src="https://www.queroviajarmais.com/wp-content/webp-express/webp-images/uploads/2019/03/comidas-da-franca-Ratatouille.jpg.webp">
+                  <div class="informacoes">
+                    <p class="nome-produto">Ratatouille</p>
+                    <p class="descricao-produto">do filme, pô</p>
+                    <p class="preco">R$ 5,80</p>
+                    <ion-icon class="check" name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                </div>
+              </div>
+            </label>
+            <label class="card">
+              <div class="alinha">
+                <input type="radio" class="radio"  onclick="calc();" name="prato" value="79.90" >
+                <div class="prato">
+                  <img src="https://www.queroviajarmais.com/wp-content/webp-express/webp-images/uploads/2019/03/comidas-da-franca-magret-de-canard-1.jpg.webp">
+                  <div class="informacoes">
+                    <p class="nome-produto">Magret de canard</p>
+                    <p class="descricao-produto">Carne doce, apenas</p>
+                    <p class="preco">R$ 79,90</p>
+                    <ion-icon class="check" name="checkmark-circle-sharp"></ion-icon>
+                </div>
+                </div>
+              </div>
+            </label>
+            <label class="card">
+              <div class="alinha">
+                <input type="radio" class="radio" onclick="calc();" name="prato" value="17.90" >
+                <div class="prato">
+                  <img src="https://www.queroviajarmais.com/wp-content/webp-express/webp-images/uploads/2019/03/comidas-da-franca-Souffl%C3%A9-au-fromage.jpg.webp">
+                  <div class="informacoes">
+                    <p class="nome-produto">Queijin no pote</p>
+                    <p class="descricao-produto">mucho queijito</p>
+                    <p class="preco">R$ 17,90</p>
+                    <ion-icon class="check" name="checkmark-circle-sharp"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </label>
+          </div>
+          <!-- Fim dos pratos -->
+
+         
     </div>
+  
+    <!-- FIM CONTEUDO -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
