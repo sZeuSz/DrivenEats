@@ -11,11 +11,12 @@
 <body>
 
     <!-- TOPO -->
+    <div class="transparente">
       <div class="topo">
           <p class="titulo">DrivenEats</p>
           <p class="subtitulo roboto400">Sua comida pronta em 6 minutos</p>
       </div>
-    <!-- FIM TOPO -->
+      <!-- FIM TOPO -->
 
       <!-- CONTEUDO -->
       <div class="conteudo">
@@ -221,6 +222,36 @@
         </div>
         <!-- fim Butao fixo de finalizar -->
     </div>
+    <!-- FIM CONTEUDO -->
+  </div>
+    <div class="confirmacao-pedido su-miu">
+      <div class="itens">
+        <p class="aviso">Confirme seu pedido</p>
+        <div class="nome-preco-um preco">
+          <p class="flango">Frango Yin Yang</p>
+          <p>14,90</p>
+        </div>
+        <div class="nome-preco-dois preco">
+          <p class="coca">Coquinha gelada</p>
+          <p>7,90</p>
+        </div>
+        <div class="nome-preco-tres preco">
+          <p class="pudim">Pudim</p>
+          <p>15,90</p>
+        </div>
+        <div class="preco-total nome-preco-tres aviso">
+          <p>TOTAL</p>
+          <p>R$ 60,90</p>
+        </div>
+      </div>
+      <div class="confirmar aviso" onclick="encaminhar();">
+        <p>Tudo certo, pode pedir!</p>
+      </div>
+      <div class="cancelar confirmar">
+        <p onclick="cancelar()";>Cancelar</p>
+      </div>
+    </div>
+  
     <!-- FIM CONTEUDO -->
 
     <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
