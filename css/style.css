@@ -85,7 +85,15 @@ body{
   background-color: #EEEEEE;
   overflow-x: scroll;
   margin-top: 20px;
+  padding-bottom: 5px;
 }
+.pratos, 
+.bebidas,
+.sobremesas{
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 
 .alinha{
   display: flex;
@@ -113,9 +121,7 @@ body{
   justify-content: center;
   align-items: center;
   background-color: white;
-  box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
-  border: 5px solid white;
 }
 
 /* Informações dos produtos */
@@ -159,7 +165,7 @@ body{
 .radio:checked ~ .prato, 
 .radio:checked ~ .bebida, 
 .radio:checked ~ .sobremesa {
-  border-color: #32B72F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
 }
 .radio:checked ~ .prato .check, 
 .radio:checked ~ .bebida .check, 
